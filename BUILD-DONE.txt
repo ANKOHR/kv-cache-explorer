@@ -1,0 +1,6 @@
+Tests: 29 passed (final run: 0.36 seconds).
+Local implementation commit: 86e882968d60d2209f1235664e3f43ee90bf1694
+The implementation commit above contains the verified code, tests and docs; a subsequent documentation commit records this completion file.
+Measured installed CLI demo: 1.0091098 seconds, under the five-second limit.
+
+Built a deterministic CPU-only kce2 CLI with fixtures, run, report, memory and compare commands, pure KV payload accounting, explicit baseline timing deltas, labelled 200-record synthetic fixtures and independent hand-computed ground truth. JSON and Markdown reports preserve provenance and label analytical memory as hypothetical and synthetic timings as illustrative. All 29 tests pass, including adversarial validation, byte-identical output, exact ground truth, zero false positives, mutation sensitivity, Unicode, empty inputs and atomic write failure cleanup. README, EVIDENCE.md and LESSONS.md document use, limitations, acceptance results and the two-week improvement hook. The final verdict awaits real-use evidence. Nothing was published and no GPU workload or network call was performed.
