@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kv-cache-explorer"
+version = "0.1.0"
+description = "CPU-only analysis of explicit KV cache configurations and recorded timings"
+requires-python = ">=3.10"
+
+[project.scripts]
+kce2 = "kv_cache_explorer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kv_cache_explorer*"]

@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+demo/
+demo-report.md
+.kce2-results.json
+kv-cache-explorer-codex.log
+kv-cache-explorer-launch.py
+kv-cache-explorer-prompt.txt
